@@ -1,0 +1,9 @@
+test\com\example\demo\AddTest.class
+com\example\demo\service\DisplayDoctorService.class
+com\example\demo\service\DisplayLabFacilityService.class
+com\example\demo\service\UpdateDoctorAvailabilityService.class
+com\example\demo\service\UpdatePatientAdmitService.class
+com\example\demo\model\Patient.class
+com\example\demo\model\LabFacility.class
+test\com\example\demo\UpdateTest.class
+com\example\demo\service\AddLabFacilityService.class
