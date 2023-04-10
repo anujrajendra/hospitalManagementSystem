@@ -19,8 +19,8 @@ public class PatientService {
 		return patient;
 	}
 	
-	public void updatePatient(Boolean admitStatus) {
-		patientRepository.updatePatientStatus(admitStatus);
+	public void updatePatient(Integer patientId, Boolean admitStatus) {
+		patientRepository.updatePatientStatus(patientId, admitStatus);
 		//return patient;
 	}
 	

@@ -3,13 +3,13 @@ package com.example.demo.service;
 import java.util.List;
 
 import com.example.demo.model.LabFacility;
-import com.example.demo.repository.FacilityRepository;
+import com.example.demo.repository.LabFacilityRepository;
 
 public class LabFacilityService {
 	
-	private FacilityRepository facilityRepository;
+	private LabFacilityRepository facilityRepository;
 
-	public LabFacilityService(FacilityRepository facilityRepository) {
+	public LabFacilityService(LabFacilityRepository facilityRepository) {
 		super();
 		this.facilityRepository = facilityRepository;
 	}

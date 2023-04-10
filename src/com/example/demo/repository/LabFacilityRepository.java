@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import com.example.demo.model.LabFacility;
 
-public class FacilityRepository {
+public class LabFacilityRepository {
 	
 	public void saveLabFacility(LabFacility labFacility) {
 		//new JdbcConnection();
